@@ -1,0 +1,62 @@
+<style>
+
+	body{
+		
+	}
+
+	.p4{
+		
+		font-size: 30px;
+		position: relative;
+		top: 15px;
+		left: 600px;
+		color: #000080;
+		
+		}	
+		
+	.year label {
+	
+		padding: 6px;	/* ラベルの位置 */
+		left: 600px;
+		font-size: 40px;
+		line-height: 28px;		/* ボタンのサイズに合わせる */
+		display: inline-block;
+		cursor:	pointer;
+		position: relative;
+
+		}
+		
+	.year label:before {
+	
+		content: '';
+		width: 30px;		/* ボタンの横幅 */
+		height: 30px;		/* ボタンの縦幅 */
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: #00F;
+		border-radius: 50%;
+		
+		}
+		
+	.year input[type="radio"] {
+	
+		display: none;
+
+		}
+
+		
+	.year input[type="radio"]:checked + label:after {
+	
+		content: '';
+		width: 15px;		/* マークの横幅 */
+		height: 15px;		/* マークの縦幅 */
+		position: absolute;
+		top: 9px;
+		left: 9px;
+		background-color: #FFF;
+		border-radius: 50%;
+
+		}
+
+</style>

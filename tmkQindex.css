@@ -1,0 +1,85 @@
+<style>
+
+	body{
+		
+	}	
+
+	.p1{
+		
+		font-size: 45px;
+		position: relative;
+		top: 50px;
+		left: 550px;
+		color: #000080;
+		
+		}
+		
+	.p2{
+		
+		font-size: 30px;
+		position: relative;
+		top: 15px;
+		left: 520px;
+		color: #000080;
+		
+		}
+	
+	.p3{
+		
+		font-size: 30px;
+		position: relative;
+		top: 15px;
+		left: 685px;
+		color: #000080;
+		
+		}	
+
+	.gender label {
+	
+		padding: 6px;	/* ラベルの位置 */
+		left: 680px;
+		font-size: 40px;
+		line-height: 28px;		/* ボタンのサイズに合わせる */
+		display: inline-block;
+		cursor:	pointer;
+		position: relative;
+
+		}
+		
+	.gender label:before {
+	
+		content: '';
+		width: 30px;		/* ボタンの横幅 */
+		height: 30px;		/* ボタンの縦幅 */
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: #00F;
+		border-radius: 50%;
+		
+		}
+		
+	.gender input[type="radio"] {
+	
+		display: none;
+
+		}
+
+		
+	.gender input[type="radio"]:checked + label:after {
+	
+		content: '';
+		width: 15px;		/* マークの横幅 */
+		height: 15px;		/* マークの縦幅 */
+		position: absolute;
+		top: 9px;
+		left: 9px;
+		background-color: #FFF;
+		border-radius: 50%;
+
+		} /*なぜか一回しか選択できない*/
+
+</style>
+
+
+

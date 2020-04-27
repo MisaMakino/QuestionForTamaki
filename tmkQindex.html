@@ -1,0 +1,219 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"; >
+    <link rel="stylesheet" type="text/css" href="./matome.css" /> 
+    <title>アンケート2019</title>  
+     
+  </head>
+
+  
+  <body>
+   
+  <div class="p1">アンケート2019
+    <br><br><br>
+  </div>  
+  
+  <form action="regist2.php" method="post">
+  
+  <div class="p2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;日付<br/>
+  <input type="datetime" name="date" style="width: 400px; length:200px; font-size:30px;"  value="" ><br />
+  </div>
+  
+  <div class="p3"><br>性別<br><br/></div>
+   
+  <div class="gender"> 
+  
+    <input type="radio" id="button-1" class="gender" name="radio1" value="male"/>
+    <label for="button-1">&nbsp;&nbsp;&nbsp;男性</label>&nbsp;&nbsp;
+    <input type="radio" id="button-2" class="gender" name="radio1" value="female" checked/>
+    <label for="buuton-2">&nbsp;&nbsp;&nbsp;女性</label>
+    
+    <br />
+  </div>
+ 
+<!--  <p align="center">
+    <font size="5">年齢</font><br />
+    <input type="radio" name="year" value="70" >70代</label>
+    <input type="radio" name="year" value="80" >80代</label>
+    <input type="radio" name="year" value="90" >90代</label>
+    <input type="radio" name="year" value="older" >それ以上</label>
+    <br />
+    </p>
+-->
+
+  <div class="p4"><br>年齢<br><br/></div>
+
+  <div class="year">
+    
+    <input type="radio" id ="button-3" class="year" name="radio2" value="70" />
+    <label for="button-3">70代</label>
+    <input type="radio" id ="button-4" class="year" name="radio2" value="80" />
+    <label for="button-4">80代</label>
+    <input type="radio" id ="button-5" class="year" name="radio2" value="90" />
+    <label for="button-5">90代</label>
+    <input type="radio" id ="button-6" class="year" name="radio2" value="older"/>
+    <label for="button-6">それ以上</label>
+    
+    <br />
+  </div>
+  
+  <p align="center">
+    <font size="5">地域</font><br />
+    <label><input type="radio" name="area" value="Tokyo" >東京</label>
+    <label><input type="radio" name="area" value="Chiba" >千葉</label>
+    <label><input type="radio" name="area" value="Others" >それ以外</label>
+    <br />
+  </p>
+  
+  <p align="center">
+    <font size="5">(1)スマートフォンを使用することができますか</font><br />
+    <label><input type="radio" name="a" value="Yes" >はい</label>
+    <label><input type="radio" name="a" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+    <font size="5">(2)ATMを使用することができますか</font><br />
+    <label><input type="radio" name="b" value="Yes" >はい</label>
+    <label><input type="radio" name="b" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+   <font size="5">(3)ブルーレイレコーダの操作ができますか</font><br />
+    <label><input type="radio" name="c" value="Yes" >はい</label>
+    <label><input type="radio" name="c" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+    <font size="5">(4)スマートフォンやパソコンのメールができますか</font><br />
+    <label><input type="radio" name="d" value="Yes" >はい</label>
+    <label><input type="radio" name="d" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+    <font size="5">(5)外国のニュースや出来事に関心はありますか</font><br />
+    <input type="radio" name="e" value="Yes">はい</label>
+    <input type="radio" name="e" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+    <font size="5">(6)健康に関する情報の信憑性について判断できますか</font><br />
+    <label><input type="radio" name="f" value="Yes" >はい</label>
+    <label><input type="radio" name="f" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+   <p align="center">
+    <font size="5">(7)美術品、映画、音楽を鑑賞することがありますか</font><br />
+    <label><input type="radio" name="g" value="Yes">はい</label>
+    <label><input type="radio" name="g" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+    <font size="5">(8)教育・教養番組を視聴していますか</font><br />
+    <label><input type="radio" name="h" value="Yes">はい</label>
+    <label><input type="radio" name="h" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+    <font size="5">(9)詐欺・ひったくり・空き巣等の被害にあわないように対策していますか</font><br />
+    <label><input type="radio" name="i" value="Yes" >はい</label>
+    <label><input type="radio" name="i" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+   <p align="center">
+    <font size="5">(10)生活の中でちょっとした工夫をすることがありますか</font><br />
+    <label><input type="radio" name="j" value="Yes" >はい</label>
+    <label><input type="radio" name="j" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+    <font size="5">(11)病人の看病ができますか</font><br />
+    <label><input type="radio" name="k" value="Yes" >はい</label>
+    <label><input type="radio" name="k" value="No">いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+    <font size="5">(12)孫や家族・知人の世話をしていますか</font><br />
+    <label><input type="radio" name="l" value="Yes" >はい</label>
+    <label><input type="radio" name="l" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+   <font size="5">(13)地域のお祭りや行事などに参加していますか</font><br />
+   <label><input type="radio" name="m" value="Yes" >はい</label>
+   <label><input type="radio" name="m" value="No" >いいえ</label>
+   <br />
+  </p>
+  
+  <p align="center">
+    <font size="5">(14)町内会・自治会で活動していますか</font><br />
+    <label><input type="radio" name="n" value="Yes" >はい</label>
+    <label><input type="radio" name="n" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+    <font size="5">(15)自治会やグループ活動の世話役や役職を引き受けることができますか</font><br />
+    <label><input type="radio" name="o" value="Yes">はい</label>
+    <label><input type="radio" name="o" value="No" >いいえ</label>
+    <br />
+  </p>
+  
+  <p align="center">
+   <font size="5">(16)奉仕活動やボランティア活動をしていますか</font><br />
+   <label><input type="radio" name="p" value="Yes" >はい</label>
+   <label><input type="radio" name="p" value="No" >いいえ</label>
+  <br />
+  </p>
+
+<!--  
+  <p align="center">
+  <font size="5"></font><br />
+  <label><input type="radio" name="q" value="Yes" >はい</label>
+  <label><input type="radio" name="q" value="male" >いいえ</label>
+  <br />
+  </p>
+  
+  <p align="center">
+  <font size="5"></font><br />
+  <label><input type="radio" name="r" value="Yes" >はい</label>
+  <label><input type="radio" name="r" value="male" >いいえ</label>
+  <br />
+  </p>
+  
+ --> 
+  
+  <p align="center">
+   <font size="5">血圧上</font><br />
+   <input type="text" name="upper" style="width: 400px; length:200px; height:50px; font-size:30px;" value="" ><br />
+  </p>
+  
+  <p align="center">
+     <font size="5">血圧下</font><br />
+    <input type="text" name="bottom" style="width: 400px; length:200px; height:50px; font-size:30px;" value=""><br />
+    <br />
+  </p>
+  
+  <p align="center">
+    <input type="submit"　 value="登録する"　class="button">
+  </p>
+    
+  
+</form>
+</body>
+</html>
